@@ -1,4 +1,4 @@
 language: asm
-install: apt install nasm
+install: sudo apt install nasm
 script:
   - nasm -fbin pixl1b.asm -o pixl1b.bin
