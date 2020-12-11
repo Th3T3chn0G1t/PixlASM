@@ -1,3 +1,3 @@
 language: asm
 script:
-  - nasm -fbin bootloader.asm -o GOS.bin
+  - nasm -fbin pixl1b.asm -o pixl1b.bin
