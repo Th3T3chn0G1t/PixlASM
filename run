@@ -1,5 +1,5 @@
 #!/bin/sh
-nasm -fbin test.asm -o GOS.bin
+nasm -fbin bootloader.asm -o GOS.bin
 used=$(wc -c < GOS.bin)
 echo Used: $used
 echo Remaining: $((512 - $used))
