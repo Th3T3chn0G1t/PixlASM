@@ -1,0 +1,4 @@
+language: asm
+script:
+  - chmod +x run
+  - ./run
