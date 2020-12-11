@@ -1,0 +1,8 @@
+#!/bin/sh
+nasm -fbin test.asm -o GOS.bin
+used=$(wc -c < GOS.bin)
+echo Used: $used
+echo Remaining: $((512 - $used))
+if [ $used==512 ]; then
+    qemu-system-x86_64 -drive file=GOS.bin,format=raw
+fi
