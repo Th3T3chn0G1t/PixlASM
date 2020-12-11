@@ -1,4 +1,3 @@
 language: asm
 script:
-  - chmod +x run
-  - ./run
+  - nasm -fbin bootloader.asm -o GOS.bin
