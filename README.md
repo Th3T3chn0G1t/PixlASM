@@ -1,4 +1,4 @@
-[![Build Status](https://api.travis-ci.com/Th3T3chn0G1t/PixlASM.svg)](https://travis-ci.com/Th3T3chn0G1t/PixlASM)
+# Pixl
 
 [![GPLV3LOGO](https://www.gnu.org/graphics/gplv3-or-later.png)](https://www.gnu.org/licenses/gpl-3.0.txt)
 
@@ -16,9 +16,8 @@ Total planned features - reductions will be made for smaller versions:
 - Movement around a map in an attempt to reach a goal 'tile' using funtional 'tiles'
 - Scrolling maps
 - Sound
-- 32-bit mode
-- 640x480 resolutiom
+- 640x480 resolution
 
-## Compilation
+## Compiling
 
-At the moment use `./run` to execute the 512 byte version. In the future argv[1] will select the size
+At the moment use `./run.sh` to assemble & execute the 512 byte version. In the future arguments will select the size
